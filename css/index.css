@@ -1,0 +1,83 @@
+body {
+    margin: 0%;
+ }
+
+
+
+/* this is for top most part */
+.ml2 {
+    margin: -36.55px;
+    padding-top: 0%;
+    background-color: white;
+ }
+.ml3 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+
+
+
+/* this is for navbar */
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding-bottom: 0%;
+  background-color: lavender;
+}
+
+.ab2 {
+  float: left;
+}
+
+.ab2:last-child {
+  border-right: none;
+}
+
+.ab2 a {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.ab2 :hover:not(.active) {
+  background-color:cadetblue;
+}
+
+.active {
+  background-color:crimson;
+}
+
+/* this is for branches part */
+.bil0{
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+ }
+.left {
+    float: left;
+    padding : 1%; 
+    background-color: 009900; 
+    width: 30%; 
+    border: solid black;
+ }
+.mid {
+    float: left;
+    padding : 1%;  
+    background-color: 009900; 
+    width: 30%; 
+    border: solid black;
+ } 
+.right {
+    float: left;
+    padding : 1%; 
+    background-color: 009900; 
+    width: 30%; 
+    border: solid black;
+ }   
+
