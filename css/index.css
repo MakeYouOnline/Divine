@@ -2,15 +2,15 @@ body {
   margin: 0%;
 }
 
-
-
 /* this is for top most part */
-.ml3,.letter {
+.ml3,
+.letter {
   background-color: cornflowerblue;
   color: #fff;
 }
 .ml3 {
-  margin :25px 0;
+  overflow: hidden;
+  margin: 0;
   padding-top: 0%;
   background-color: white;
   text-align: center;
@@ -18,71 +18,98 @@ body {
   font-size: 3.5em;
 }
 
-
-
-/* this is for navbar */
-
-/* ul {
-list-style-type: none;
-overflow: hidden;
-padding-bottom: 0%;
-background-color: lavender;
-}
-
-.ab2 {
-float: left;
-}
-
-.ab2:last-child {
-border-right: none;
-}
-
-.ab2 a {
-display: block;
-color:black;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-}
-
-.ab2 :hover:not(.active) {
-background-color:cadetblue;
-}
-
-.active {
-background-color:crimson;
-} */
-
 /* New Navbar css */
+li {
+  list-style-type: none;
+  margin: 0 2vw;
+  font-size: 3vh;
+}
+a {
+  text-decoration: none;
+  /*below I changed the color*/
+  color: black;
+  /*also changed the font family but that's totally irrelevant*/
+  font-family: monospace;
+}
+a:hover,
+a.active {
+  background-color: rgb(228, 43, 36);
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+nav {
+  overflow: hidden;
+  width: 100vw;
+  background-color: #d6efff;
+}
+ul {
+  display: flex;
+}
 
+/* css for slideshow */
+.content {
+  width: 100vw;
+  overflow: hidden;
+}
+.content .images {
+  height: 100%;
+  width: 100%;
+}
+.images img {
+  height: 50%;
+  width: 100%;
+}
+
+/* About part in index */
+.abut {
+  overflow: hidden;
+  text-align: center;
+}
+.abuth1 {
+  color: rgb(217, 241, 110);
+}
+.abutp {
+  text-align: justify;
+}
 
 /* this is for branches part */
-.bil0{
-  text-align: center;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
-}
 .left {
+  overflow: hidden;
   float: left;
-  padding : 1%; 
-  background-color: 009900; 
-  width: 30%; 
+  padding: 1%;
+  background-color: 009900;
+  width: 30%;
   border: solid black;
 }
 .mid {
+  overflow: hidden;
   float: left;
-  padding : 1%;  
-  background-color: 009900; 
-  width: 30%; 
+  padding: 1%;
+  background-color: 009900;
+  width: 30%;
   border: solid black;
-} 
+}
 .right {
+  overflow: hidden;
   float: left;
-  padding : 1%; 
-  background-color: 009900; 
-  width: 30%; 
+  padding: 1%;
+  background-color: 009900;
+  width: 30%;
   border: solid black;
-}   
+}
 
+/* footer css */
+footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: powderblue;
+  color: white;
+  text-align: center;
+  flex-shrink: 0%;
+  width: 100vw;
+  overflow: hidden;
+}
