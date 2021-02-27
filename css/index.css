@@ -21,23 +21,25 @@ body {
 /* New Navbar css */
 li {
   list-style-type: none;
-  margin: 0 2vw;
-  font-size: 3vh;
+  font-size: 2.5vh;
 }
 a {
+  padding-left: 20px;
+  padding-right: 20px;
   text-decoration: none;
   /*below I changed the color*/
   color: black;
   /*also changed the font family but that's totally irrelevant*/
   font-family: monospace;
 }
+a:hover:not(.active) {
+  background-color: cadetblue;
+}
 a:hover,
 a.active {
   background-color: rgb(228, 43, 36);
   padding-bottom: 15px;
   padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 nav {
   overflow: hidden;
@@ -98,6 +100,9 @@ ul {
   background-color: 009900;
   width: 30%;
   border: solid black;
+}
+.brnch {
+  margin-left: 3.5%;
 }
 
 /* footer css */
