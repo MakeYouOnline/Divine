@@ -31,6 +31,9 @@ a {
   /*also changed the font family but that's totally irrelevant*/
   font-family: monospace;
 }
+a:hover:not(.active) {
+  background-color: cadetblue;
+}
 a:hover,
 a.active {
   background-color: rgb(228, 43, 36);
